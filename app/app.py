@@ -200,4 +200,4 @@ if __name__ == "__main__":
         if os.path.exists(JSON_DATA_DIR):
             shutil.rmtree(JSON_DATA_DIR)
         os.mkdir(JSON_DATA_DIR)
-    app.run(host="127.0.0.1", port=5000)
+    app.run(host="0.0.0.0", port=5000)
