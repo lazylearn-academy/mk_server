@@ -1,4 +1,5 @@
-Flask==2.3.0
+Flask
 Flask-SQLAlchemy
 Flask-Marshmallow
 flask-cors
+Marshmallow-SQLAlchemy
