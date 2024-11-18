@@ -47,7 +47,7 @@ class ClassOnVideo(db.Model):
 class YoloTeamResults(db.Model):
     __tablename__ = 'yolo_team_results'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(120), nullable=False, unique=True)
+    name = db.Column(db.String(120), nullable=False, unique=False)
     score = db.Column(db.Float, nullable=False, unique=False)
     params = db.Column(db.String, nullable=False, unique=False)
 
