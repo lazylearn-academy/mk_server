@@ -189,7 +189,7 @@ if __name__ == "__main__":
     with app.app_context():
         db.drop_all()
         db.create_all()
-        _classes = (("cat", 2), ("dog", 3), ("pep", 1))
+        _classes = (("cat", 49), ("dog", 22))
         for c in _classes:
             c = ClassOnVideo(
                 name=c[0],
